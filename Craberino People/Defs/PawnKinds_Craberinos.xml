@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef>
+        <defName>Craberino1</defName>
+        <label>A craberino</label>
+        <race>Craberino</race>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>Crabber</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+</Defs>
