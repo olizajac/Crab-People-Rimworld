@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.BackstoryDef>
+        <defName>Crabchild</defName>
+        <title>Crabchild</title>
+        <titleShort>Crabchild</titleShort>
+        <baseDescription>NAME is a Crabchild. Also sometimes called craberino.</baseDescription>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>Crabber</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Plants</defName>
+                <amount>4</amount>
+            </li>
+            <li>
+                <defName>Animals</defName>
+                <amount>10</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+        </workDisables>
+        <forcedItems>
+            <Steel>7~25</Steel>
+        </forcedItems>
+        <bioAgeRange>
+            <min>15</min>
+            <max>70</max>
+        </bioAgeRange>
+        <chronoAgeRange>
+            <min>0</min>
+            <max>100</max>
+        </chronoAgeRange>
+    </AlienRace.BackstoryDef>
+    <AlienRace.BackstoryDef>
+        <defName>Crabman</defName>
+        <title>Crabmann</title>
+        <titleShort>Crabman</titleShort>
+        <baseDescription>NAME is a crabman. Also sometimes called craberino.</baseDescription>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>Crabber</li>
+        </spawnCategories>
+        <skillGains>
+            <li>
+                <defName>Plants</defName>
+                <amount>6</amount>
+            </li>
+            <li>
+                <defName>Melee</defName>
+                <amount>20</amount>
+            </li>
+        </skillGains>
+        <workDisables>
+            <li>Artistic</li>
+        </workDisables>
+        <forcedItems>
+            <Steel>7~25</Steel>
+        </forcedItems>
+        <bioAgeRange>
+            <min>15</min>
+            <max>70</max>
+        </bioAgeRange>
+        <chronoAgeRange>
+            <min>5</min>
+            <max>100</max>
+        </chronoAgeRange>
+    </AlienRace.BackstoryDef>
+
+</Defs>

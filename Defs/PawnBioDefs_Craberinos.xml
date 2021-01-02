@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.PawnBioDef>
+    <defName>Crabperson</defName>
+    <childhoodDef>Crabchild</childhoodDef>
+    <adulthoodDef>Crabman</adulthoodDef>
+    <gender>Either</gender> <!-- other options are Male and Female -->
+    <name>
+      <first>Crabberen/first>
+      <last>Crabski</last>
+      <nick>Crabbo</nick>
+    </name>
+    <factionLeader>false</factionLeader>
+    <validRaces>
+      <li>Craberino</li>
+    </validRaces>
+</AlienRace.PawnBioDef>
+
+</Defs>
