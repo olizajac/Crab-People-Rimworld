@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Craberinopeople</name>
-  <author>Bionic frog</author>
+  <author>Bionic frog, Oliwier Zajaczkowski</author>
+  <packageId>BionicFrog.AlienRaces.CraberinoPeople</packageId>
   <supportedVersions><li>1.2</li></supportedVersions>
   <url>Link</url>
   <description>
