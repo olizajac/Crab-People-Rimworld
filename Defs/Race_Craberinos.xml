@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <Defs>
-<AlienRace.ThingDef_AlienRace ParentName="HumanRace">
-    <defName>Craberino</defName>
-    <label>Crab person</label>
-    <description>Craberino person. It's a crab person.</description>
-    <alienRace>
+    <AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+        <defName>Craberino</defName>
+        <label>Crab person</label>
+        <description>Craberino person. It's a crab person.</description>
+        <alienRace>
+            <graphicPaths>
+                 <li>
+                    <body>Craberino/Body/</body>
+                    <head>Craberino/Head/</head>
+                </li>
+            </graphicPaths>
+
+            <hairSettings>
+                <hasHair>false</hasHair>
+            </hairSettings>
+
         <generalSettings>
             <maleGenderProbability>1</maleGenderProbability>
             <immuneToAge>false</immuneToAge>
@@ -57,16 +69,8 @@
 
             </alienPartGenerator>
         </generalSettings>
-        <graphicPaths>
-             <li>
-                <body>Things/Craberino/Base/</body>
-                <head>Things/Craberino/Head/</head>
-            </li>
-            
-        </graphicPaths>
-        <hairSettings>
-            <hasHair>false</hasHair>
-        </hairSettings>
+
+
         <thoughtSettings>
             
         </thoughtSettings>
